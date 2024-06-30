@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    position: absolute;
+    background-color: #dcdcdc;
+    width: 100%;
+
+}
+.nav-items{
+    margin-left: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.nav-item{
+    display: inline-block;
+    padding-top: 5px;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.nav-link:hover{
+    color: grey;
+}
+.cart {
+    border-collapse: separate;
+    border: 1px solid black;
+    table-layout: inherit;
+    width: 80%;
+    background-color: whitesmoke;
+    position: relative;
+    left: 120px;
+    top: 50px;
+    text-align: center;
+    align-items: center;
+    border: none;
+
+  }
+  .cart thead {
+    position: sticky;
+    top: 0;
+  }
+  
+  .cart th, td {
+    text-align: center;
+    width: 15.33%;
+    
+  }
+  .cart th {
+    height: 40px;
+    background-color: rgb(176, 125, 212);
+    color: white;
+    font-size: 21px;
+  }
+  .cart td {
+    height: 220px;
+    font-size: 19px;
+    /* border-bottom: 1px solid black; */
+
+  }
+  .cart li {
+    padding: 10px 0px 0px 10px;
+  }
+  .cart ul {
+    padding-right: 24px;
+    text-align: right;
+    list-style: none;
+  }
+  table img {
+    height: 140px;
+    width: 60%;
+    /* border: 1px solid black; */
+    
+
+  }
+  table button {
+    height: 32px;
+    width: 50%;
+    background-color: rgb(255, 68, 0);
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 2px 1px gray;
+    font-size: 16px;
+  }
+  button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+  }
+  tr {
+    border-bottom: 1px solid black;
+  }
+  .buy {
+    /* border: 1px soild black; */
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    /* margin: auto; */
+    position: relative;
+    left: 180px;
+    top: 180px;
+    background-color: aliceblue;
+  }
+  .buy th {
+    background-color: #bb2bd8;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+  }
+  .buy td {
+    height: 80px;
+    font-size: 19px;
+  }
+
+  /*________ style of form */
+
+  .form {
+    width: 55%;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-size: 18px;
+    /* display: none; */
+    padding: 3%;
+    margin: 30px auto;
+    box-shadow: 2px 3px 2px rgb(177, 176, 176);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    display: none;
+
+}
+.form label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.form .btn-dark, h2 {
+    background: #bb2bd8;
+}
+.form .btn-dark:hover {
+    background: #0b6a89;
+}
+.form h2 {
+    font-size: 24pt;
+    padding: 0.2in;
+}
+.form .btn-dark{
+    width: 34%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    font-size: 18pt;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.form-input {
+    display: block;
+    width: 60%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.form button:hover {
+    cursor: pointer;
+}
+.text-warning {
+    color: #fa0000;
+    display: block;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.box-captcha div {
+    margin-bottom: 10px;
+  }
+  .box-captcha button {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .box-captcha input {
+    text-decoration: none;
+  }
+  #generated-captcha {
+    text-decoration: line-through;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ede7f6;
+    border-radius: 6px;
+    border: none;
+    padding: 6px;
+    outline: none;
+    color: #1d1d1d;
+  }
+  #entered-captcha {
+    border: 2px solid #c5c7f7;
+    font-family: monospace;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .box-captcha button {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: bold;
+    outline: none;
+    background-color: #64f394;
+  }
+  #gen {
+    background-color: #ee7e6a;
+  }
+  .wrappr {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appliances</title>
+    <link rel="stylesheet" href="Style.css">
+    </head>
+    <body style="height: 3000px;" id="body">
+    <nav class="nav">
+    <span class="nav-item">
+        <b style="color: black; font-size: 20px; margin-left: 40px; margin-top: 20px;"> 
+            One click for electricals
+    </b></span>
+    <ul class="nav-item nav-items">
+        <li class="nav-item">
+            <a href="home.html"  class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="AboutUs.html" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="Appliances.html"  class="nav-link">Appliances</a>
+        </li>
+    </ul>
+</nav>
+<br><br><br>
+
+    <table class="cart">
+        <thead>
+        <tr>
+            <th>المنتج</th>
+            <th>التفاصيل</th>
+            <th>السعر</th>
+            <th>صورة</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>براد <br>
+            LG</td>
+            <td>
+                <ul>
+                    <li>الحجم 800 لتر -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>يدوم طويلا بتوفير الطاقة -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>ل,س 7,000,000</td>
+            <td><img src="items/sas.jpg" alt="">
+            <button onclick="addToCart('براد',7000000,1)">Add to cart</button>
+            <div id="Messageبراد" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+        </td>
+        </tr>
+        <tr>
+            <td>غسالة<br>
+            samsung</td>
+            <td>
+                <ul>
+                    <li>الحجم 40 كيلو -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>تنشيف تلقائي -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>ل,س 5,800,000</td>
+            <td><img src="items/ghs.png" alt="">
+            <button onclick="addToCart('غسالة',5800000,2)">Add to cart</button>
+            <div id="Messageغسالة" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+        </td>
+        </tr>
+        <tr>
+            <td>مكنسة كهربائية<br>
+            smart lock</td>
+            <td>
+                <ul>
+                    <li>الحجم 2 كيلو -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>تدعم حساسات للاوساخ الكبيرة -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>ل,س 2,000,000</td>
+            <td><img src="items/it3.jpg" alt="">
+            <button onclick="addToCart('مكنسة كهربائية',2000000,3)">Add to cart</button>
+            <div id="Messageمكنسة كهربائية" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>مبرد ماء<br>
+            Ramcho</td>
+            <td>
+                <ul>
+                    <li>الحجم 20 لتر -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>يدعم الماء الساخن -</li>
+                    <li>براد صغير -</li>
+                </ul>
+            </td>
+            <td>2,500,000 ل,س</td>
+            <td><img src="items/it4.jpg" alt="">
+            <button onclick="addToCart('مبرد ماء',2500000,4)">Add to cart</button>
+            <div id="Messageمبرد ماء" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>غسالة اطباق<br>
+            LG</td>
+            <td>
+                <ul>
+                    <li>الحجم 800 لتر -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>يدوم طويلا بتوفير الطاقة -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>ل,س 6,000,000</td>
+            <td><img src="items/it5.jpg" alt="">
+            <button onclick="addToCart('غسالة اطباق',6000000,5)">Add to cart</button>
+            <div id="Messageغسالة اطباق" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>مكيف <br>LG</td>
+            <td>
+                <ul>
+                    <li>الحجم 2 طن -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>يدعم هواء ساخن -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>ل,س 9,000,000</td>
+            <td><img src="items/t6.jpg" alt="">
+            <button onclick="addToCart('مكيف LG',9000000,6)">Add to cart</button>
+            <div id="Messageمكيف LG" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>خلاط كهربائي<br>
+            Ramcho</td>
+            <td>
+                <ul>
+                    <li>الحجم 2 كيلو -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>يدعم تنعيم البهارات -</li>
+                    <li>-----</li>
+                </ul>
+            </td>
+            <td>ل,س 1,800,000</td>
+            <td><img src="items/it7.jpg" alt="">
+            <button onclick="addToCart('خلاط كهربائي',1800000,7)">Add to cart</button>
+            <div id="Messageخلاط كهربائي" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>شاشة <br>smart <br>
+            Sony</td>
+            <td>
+                <ul>
+                    <li>الحجم 4 كيلو -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>تدعم اتصال انترنت -</li>
+                    <li>full HD -</li>
+                </ul>
+            </td>
+            <td>ل,س 10,000,000</td>
+            <td><img src="items/it8.jpg" alt="" style="width: 80%;">
+            <button onclick="addToCart('شاشة smart',10000000,8)">Add to cart</button>
+            <div id="Messageشاشة smart" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>لابتوب <br>HP</td>
+            <td>
+                <ul>
+                    <li>الحجم 2 كيلو -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>سعة تخزين t1 -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>ل,س 12,000,000</td>
+            <td><img src="items/it9.jpg" alt="">
+            <button onclick="addToCart('لابتوب',12000000,9)">Add to cart</button>
+            <div id="Messageلابتوب" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        <tr>
+            <td>مروحة <br>
+            Hook</td>
+            <td>
+                <ul>
+                    <li>الحجم 3 كيلو -</li>
+                    <li>تكنلوجيا حديثة -</li>
+                    <li>يدوم طويلا بتوفير الطاقة -</li>
+                    <li>محول رقمي -</li>
+                </ul>
+            </td>
+            <td>3,000,000 ل,س</td>
+            <td><img src="items/it10.jpg" alt="">
+            <button onclick="addToCart('مروحة',3000000,10)">Add to cart</button>
+            <div id="Messageمروحة" style="display: none; font-size: 15px; color: rgb(94, 92, 92); padding-top: 5px;">تم اضافة المنتج الى السلة</div>
+
+        </td>
+        </tr>
+        </tbody>
+    </table>
+
+<h2 style="text-align: center; color: black; position: relative; top: 150px; background-color: white;">سلة المشتريات</h2>
+    <table class="buy" border="1" id="cart">
+        <thead>
+            <tr>
+                <th>المنتج</th>
+                <th>الكمية</th>
+                <th>السعر(ل,س)</th>
+                <th>(ل,س)السعر الكلي</th>
+                <!-- <th>السعر الاجمالي(ل,س)</th> -->
+            </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+            <tfoot>
+                <tr style="display: none;">
+                    <td colspan="3" >الإجمالي:</td>
+                    <td id="total">0</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding-right: 10px; text-align: end;">الضريبة (5%):</td>
+                    <td id="tax">0</td>
+                </tr>
+                <tr>
+                <td colspan="3" style="padding-right: 10px; text-align: end;">الإجمالي:</td>
+                <td id="final-total">0</td>
+                </tr>
+
+            <tr>
+                <td colspan="4">
+                    <button onclick="showForm()" style="width: 30%; margin: 10px;">متابعة</button>
+                    
+                    <button onclick="clearCart()" style="width: 30%; margin: 10px;">الغاء</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="form" id="form">
+
+        <h2 style="color: white; border-radius: 15px; text-align: center;">نموذج الشراء</h2>
+        
+        <form name="form-buy">
+            <br>
+    
+            <label for="fullName">الاسم الكامل:</label>
+            <input type="text" class="form-input" name="fullName" id="fullName" placeholder="أحرف هجائية فقط باللغة العربية">
+            <p id="n" class="text-warning"></p>
+            
+            <br>
+    
+            <label for="Numberc">الرقم الوطني:</label>
+            <input type="text" id="Numberc" class="form-input" required name="Numberc" placeholder="يجب ان يحتوي الرقم الوطني على - 11 خانة">
+            <p id="c" class="text-warning"></p>
+            
+            <br>
+            
+            <label for="birthdate">تاريخ الولادة:</label>
+            <input type="date" id="birthdate" class="form-input" onblur="ValidateBirthday()" name="birthdate" placeholder="dd-mm-yyyy">
+            <p id="msgDate" class="text-warning"></p>
+    
+            <br>
+    
+            <label for="mobileNumber">رقم الموبايل:</label>
+            <input type="tel" id="mobileNumber" class="form-input" name="mobileNumber" value="00963">
+            <p id="t" class="text-warning"></p>
+            
+            <br>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" name="email" id="email" class="form-input" placeholder="ادخل الايميل">
+            <p id="p" class="text-warning"></p>
+            
+            <br>
+    
+            <div class="box-captcha">
+                <input type="hidden" id="status-captcha" name="status-captcha" value="no">
+                <h2 id="status" style="color: #010101; width: 32%; background-color: rgb(125, 23, 222); margin: auto;" ></h2>
+                <div>
+                    <input type="text" readonly id="generated-captcha">
+                </div>
+                <div>
+                    <input type="text" id="entered-captcha" placeholder="Enter the captcha..">
+                </div>
+                <button type="button" onclick="check()">
+                    check
+                </button>
+                <button type="button" onclick="generate()" id="gen">
+                    Generate New
+                </button>
+            </div>
+    
+            <br>
+            
+            <button type="button" class="btn-dark" onclick="buy()">شراء</button>
+        </form>
+    </div>
+    
+    </div>
+    
+    </div>
+    <script src="myFunctions.js"></script>
+</body>
+</html>
